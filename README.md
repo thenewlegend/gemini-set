@@ -124,34 +124,6 @@ The installer creates `.gemini/settings.json` containing the full configuration 
 }
 ```
 
----
-
-## Local development
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your/repo.git
-cd gem-set
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Test the installation behavior using a tarball (recommended):
-
-```bash
-npm pack
-cd ../your-test-project
-npm install ../gem-set/gem-set-*.tgz
-```
-
-You should see `.gemini/settings.json` created in the test project.
-
----
 
 ## Overwriting existing settings
 
