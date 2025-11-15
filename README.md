@@ -1,4 +1,5 @@
 # gem-set
+## Uniform Gemini CLI settings with ease
 
 `gem-set` is an installation-time configurator for Node.js projects.  
 When installed, it automatically creates a `.gemini` directory in the consuming project and writes a `settings.json` file populated with a predefined configuration.
