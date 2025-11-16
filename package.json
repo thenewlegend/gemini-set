@@ -1,0 +1,11 @@
+{
+  "name": "gemini-set",
+  "version": "1.0.0",
+  "description": "Create .gemini/settings.json in the consuming project on npm install",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "author": "thenewlegend",
+  "license": "MIT"
+}
